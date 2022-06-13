@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+</head>
+
+
+<body>
+
+    <div class="wrapper">
+        <div class="current-time section">
+            <h2 class="current-time__date"></h2>
+            <h1 class="current-time__time"></h1>
+        </div>
+
+        <div class="stopwatch  section">
+            <div class="stopwatch__left">
+                <h2 class="stopwatch__counter">00:00:00:000</h2>
+                <div class="stopwatch__btns">
+
+
+                    <button class="stopwatch__btn stopwatch__start">START</button>
+                    <button class="stopwatch__btn stopwatch__loop" disabled>LOOP</button>
+                    <button class="stopwatch__btn stopwatch__stop">STOP</button>
+                    <button class="stopwatch__btn stopwatch__reset">RESET</button>
+                </div>
+            </div>
+            <div class="stopwatch__right">
+
+            </div>
+        </div>
+
+        <div class="timer section">
+            <div class="timer__left">
+                <h2 class="timer__number-minutes">25</h2>
+                <h2 class="timer__text">MINUTES</h2>
+                <div class="timer__left-btns">
+                    <button class="timer__left-btn timer__left-btn1 ">+</button>
+                    <button class="timer__left-btn timer__left-btn2">-</button>
+                </div>
+
+            </div>
+            <div class="timer__right">
+                <h2 class="timer__counter">00:00</h2>
+                <div class="timer__right-btns">
+                    <button class="timer__right-btn timer__right-btn-start">START</button>
+                    <button class="timer__right-btn timer__right-btn-stop">STOP</button>
+                    <button class="timer__right-btn timer__right-btn-reset">RESET</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
